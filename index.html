@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>JF</div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#contact">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="text" style="text-align: center;">Your Trusted Travel Agency</h1>
+        <h2 class="bgtext" style="text-align: center;">Your happiness is our happiness</h2>
+        <div id="home">
+            <section>
+                <div>
+                    <div class="banner banner-1"></div>
+                    <div class="banner banner-2"></div>
+                    <div class="banner banner-3"></div>    
+                </div>
+                <p class="bgtext" style="padding-top: 10px;"><i>"Liburan menjadi menyenangkan bersama JF travel Agency"</i></p>
+                <div class="profile-container">
+                    <img src="img/img3.png" alt="img3" class="image">
+                    <ul class="list-wrap">
+                        <li class="txt"><h3 class="text">florence hughs</h3></li>
+                        <li class="txt"><p class="bgtext">ibu rumah tangga, 28</p></li>
+                    </ul>
+                </div>
+                <p style="padding-top: 10px;"><b>Use this space to provide users with more information about your offer. Consider it a follow up to your headline and explain the benefits of your sevice or product.</b></p>
+                <div class="list-wrapping">
+                    <div class="list">
+                    <div>My first item</div>
+                    <div>My second item</div>
+                    <div>My third item</div>
+                </div>    
+            </section>
+        </div>
+        <div id="contact">
+            <aside>
+                <h2>Contact us</h2>
+                <p style="padding-top: 10px;">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                <form style="padding-top: 40px;">
+                    <label>Your Name:</label><br>
+                    <input type="text" id="input-name" placeholder="Your Name"><br>
+                </form>
+                <form style="padding-top: 20px;">
+                    <label>Email Address:</label><br>                        
+                    <input type="email" id="input-email" placeholder="Your email"><br>
+                </form>
+                <form style="padding-top: 20px;">
+                    <label>What are you interested in?</label><br>
+                    <select name="cars" id="cars">
+                        <option value="select">Select</option>                           
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select><br>
+                </form>
+                <form style="padding-top: 20px;">
+                    <button type="button" onclick="formValidation();">Submit</button>
+                    </form>
+            </aside>
+        </div>
+        <div id="about">
+            <div class="container">
+                <h1>Our Package</h1>
+                <div class="packages">
+                    <div class="package">
+                        <div class="icon">💡</div>
+                        <h2>Bali</h2>
+                        <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+                    </div>
+                    <div class="package">
+                        <div class="icon">💡</div>
+                        <h2>Japan</h2>
+                        <p>Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik</p>
+                    </div>
+                    <div class="package">
+                        <div class="icon">💡</div>
+                        <h2>Singapore</h2>
+                        <p>This description supports and extends the bullet point above.</p>
+                    </div>
+                    <div class="package">
+                        <div class="icon">⭐</div>
+                        <h2>Bandung</h2>
+                        <p>This description supports and extends the bullet point above.</p>
+                    </div>
+                    <div class="package">
+                        <div class="icon">⭐</div>
+                        <h2>Surabaya</h2>
+                        <p>This description supports and extends the bullet point above.</p>
+                    </div>
+                    <div class="package">
+                        <div class="icon">⭐</div>
+                        <h2>Third Feature</h2>
+                        <p>This description supports and extends the bullet point above.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js\app.js"></script>
+</body>
+</html>
+
